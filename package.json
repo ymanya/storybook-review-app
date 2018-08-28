@@ -13,12 +13,12 @@
     "test-app": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "start": "npm run storybook",
-    "storybook": "start-storybook -p 5000 -s public",
-    "build-storybook": "build-storybook -s public"
+    "storybook": "npx start-storybook -p 5000 -s public",
+    "build-storybook": "npx build-storybook -s public"
   },
   "devDependencies": {
-    "@storybook/react": "^3.4.10",
     "@storybook/addon-actions": "^3.4.10",
-    "@storybook/addon-links": "^3.4.10"
+    "@storybook/addon-links": "^3.4.10",
+    "@storybook/react": "^3.4.10"
   }
 }
